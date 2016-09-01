@@ -556,6 +556,6 @@
                 console.log(Result.ControlList);
 
                 //获取模板打印
-                PaperPrint.prieview(Result,{LineHeight:5,FontSize:11,ScareTimes:1.5});
+                PaperPrint.prieview(Result,{LineHeight:5,FontSize:11});
             });
         });

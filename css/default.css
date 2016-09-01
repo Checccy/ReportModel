@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;font-size: 12px}
+body{background: #f8f8f9;color: #333;position: relative;}
+.main{width: 90%;margin:0 auto;}
+.main:after{clear: both;height: 0;display: block;visibility: hidden;content:"0";}
+.nav:after{clear: both;height: 0;display: block;visibility: hidden;content:"0";}
+.nav{padding:10px 0 10px 0;}
+.nav-item{float: left; border: 1px solid #d7d7d7; padding: 2px 5px;margin-right: 10px;cursor: pointer;}
+.nav-item.e{background:#31C27C; color: #fff;}
+.col-xs-3,.col-xs-9,.col-xs{float: left;}
+.col-xs-3{width: 15%;}
+.col-xs-9{width: 85%;}
+.original-model{background:#31C27C;line-height: 1.47;width: 80px;text-align: center;margin:0 0 10px 10px;color: #fff;border-radius: 1px;float:left;}
+.original-model:hover{color: #fff;background: #27E089}
+.child-drag{line-height: 1.47;text-align: left;margin:0;border-radius: 1px;border-bottom: 1px solid #d7d7d7;padding-right: 18px;}
+.child-drag.title{border:0 none; font-weight: bold;}
+.child-drag.normal{border:0 none;}
+.child-drag.line:hover{border-color:#FF6D0B }
+.child-drag.mutipleline{border: 1px solid #d7d7d7;padding:0 10px;overflow: hidden;}
+.child-drag.barcode{overflow: hidden;border:0 none;width: 80px;}
+.child-drag.barcode>div{width: 5px;border-left: 3px solid #666;height: 30px;float: left;}
+.child-drag.barcode>div:nth-child(even){border-width: 2px;}
+.child-drag.barcode>div:nth-child(odd){border-width: 3px;}
+.child-drag.barcode .code-num{height: 14px;width: 80px;border: 0 none;clear: both;}
+.mutipleline>div{border-bottom: 1px solid #d7d7d7;height:30px;line-height: 30px;}
+.mutipleline>div:nth-last-child(1){border:0 none;}
+.canvas{border:1px solid #d7d7d7; background: #fff;height:680px;width: 75%;position: relative;z-index: -1}
+.tips-line-x{width: 0;position: absolute;border-left: 1px dashed #7C7C7C; }
+.tips-line-y{height: 0;position: absolute;left: 0;border-bottom: 1px dashed #7C7C7C;}
+.category-name{line-height: 18px;border-bottom: 1px solid #d7d7d7; margin:0 10px 10px 0;padding-bottom: 4px;clear: both;}
+.print{position: absolute;top: 10px;right: 40%; padding: 2px 5px;background: #2D2E30;color: #CECECE;border-radius: 2px;cursor: pointer; }
+.print:hover{color: #fff}
+
+.paper-container{display: none;}
+.item-other{float: left;overflow: hidden;padding: 2px 0; margin-right: 10px;}
+.paper-txt{border:1px solid #d7d7d7;margin:0;padding: 0; display: inline-block;width:36px;border-radius: 2px;}
+.paper-btn{padding: 1px 5px;background: #059CD4;color: #fff;border-radius: 2px;cursor: pointer;float: left;line-height: 1.47;}
+.paper-btn:hover{background: #03B4F2}

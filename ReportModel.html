@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src='http://localhost:8000/CLodopfuncs.js'></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="col-xs-3">
+                打印类型：
+                <select id="ModelType" name="modelType">
+                    <option value="ReportControl" selected="selected">报告打印</option>
+                    <option value="BacteriaControl">菌条码打印</option>
+                    <option value="PreBarcodeControl">预置条码打印</option>
+                </select>
+                </select>
+            </div>
+            <div class="col-xs" id="PaperType"></div>
+            <div class="col-xs paper-container">
+                <div class="item-other">宽：
+                    <input type="text" class="paper-txt" id="PaperWidth" >mm
+                </div>
+                <div class="item-other">高：
+                    <input type="text" class="paper-txt"  id="PaperHeight">mm
+                </div>
+                <span class="paper-btn" id="Confirm">确定</span>
+            </div>
+        </div>
+        <div>
+            <div class="col-xs-3" id="ControlContainer">
+            </div>
+            <div class="col-xs-9" id="Content">
+                <div class="canvas" id="Canvas"></div>
+            </div>
+        </div>
+    </div>
+    <a class="print" id="Print">Print</a>
+</body>
+
+</html>

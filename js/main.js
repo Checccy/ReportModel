@@ -131,6 +131,7 @@
             isIE: document.all ? true : false,
         }
         var DPIX,DPIY;
+
         var Canvas={
             changePaper:function(key){
                 var paper=PaperType[key];
@@ -158,7 +159,7 @@
             init: function(id,canvasId,controlList,options) {
                 var $dragDiv=Common.getItself(id);
                 var canvasArea=Canvas.area.call(Common.getItself(canvasId));
-                this.dragArea = { maxLeft: 0, maxRight: Common.getViewportSize.w - $dragDiv.width() - 2, maxTop: 0, maxBottom: Common.getViewportSize.h - $dragDiv.height() - 2 };
+                this.dragArea = { maxLeft: -canvasArea.left, maxRight: Common.getViewportSize.w - $dragDiv.width() - 2, maxTop: 0, maxBottom: Common.getViewportSize.h - $dragDiv.height() - 2 };
                 if (options) {
                     this.keepOrigin = options.keepOrigin ? ((options.keepOrigin == true || options.keepOrigin == false) ? options.keepOrigin : false) : false;
                     this.autoDistance=isNaN(parseInt(options.autoDistance))?6:options.autoDistance;
@@ -193,8 +194,8 @@
                         newId=id+'-'+newId;
                         dragObj.currentDrag = dragObj.getControlDom(id,canvasArea,controlList);
                         dragObj.currentDrag.attr({id:newId,control:id})
-                                             .css({position:'absolute','z-index':(dragObj.getZindex()+1),top:dragDivArea.top,left:dragDivArea.left})
-                                             .appendTo($(this).parent())
+                                             .css({position:'absolute','z-index':(dragObj.getZindex()+1),top:dragDivArea.top-canvasArea.top,left:dragDivArea.left-canvasArea.left})
+                                             .appendTo("#"+canvasId)
                         new Drag(newId,canvasId,{keepOrigin: false,autoDistance:dragObj.autoDistance});
                     }
                     dragObj.currentDrag.css("opacity",0.6);
@@ -223,11 +224,12 @@
                             }
                             var currentX=0,currentY=0,movePos,campareDragTops=[],campareDragLefts=[];
                             movePos = Common.getMousePos(ev);
-                            currentX=Math.max(Math.min(movePos.x - dragObj.tmpX, dragObj.dragArea.maxRight), dragObj.dragArea.maxLeft);
-                            currentY=Math.max(Math.min(movePos.y - dragObj.tmpY, dragObj.dragArea.maxBottom), dragObj.dragArea.maxTop);
+                            console.log(dragObj.dragArea)
+                            currentX=Math.max(Math.min(movePos.x - dragObj.tmpX-canvasArea.left, dragObj.dragArea.maxRight), dragObj.dragArea.maxLeft);
+                            currentY=Math.max(movePos.y - dragObj.tmpY-canvasArea.top, dragObj.dragArea.maxTop);
                             $(".child-drag").not(dragObj.currentDrag).each(function(index,item){
-                                campareDragLefts.push($(this).offset().left);
-                                campareDragTops.push($(this).offset().top);
+                                campareDragLefts.push($(this).position().left);
+                                campareDragTops.push($(this).position().top);
                             });
                             var campareTop=campareDragTops.sort(function(a, b) {
                                   return Math.abs(a - currentY) - Math.abs(b - currentY);
@@ -238,7 +240,7 @@
                             if ((campareTop-dragObj.autoDistance)<currentY&&currentY<(campareTop+dragObj.autoDistance)) {
                                     $(".tips-line-y").remove();
                                     $("<div>").attr('class','tips-line-y')
-                                              .css({top:campareTop-canvasArea.top-1,width:canvasArea.width+'px',})
+                                              .css({top:campareTop,width:canvasArea.width+'px',})
                                               .appendTo('#'+canvasId);
                                     dragObj.currentDrag.css('top',+campareTop+"px");
                                 }else{
@@ -248,7 +250,7 @@
                             if ((campareLeft-dragObj.autoDistance)<currentX&&currentX<(campareLeft+dragObj.autoDistance)) {
                                     $(".tips-line-x").remove();
                                     $("<div>").attr('class','tips-line-x')
-                                              .css({left:campareLeft-canvasArea.left-1,height:canvasArea.height+'px',})
+                                              .css({left:campareLeft,height:canvasArea.height+'px',})
                                               .appendTo('#'+canvasId);
                                     dragObj.currentDrag.css('left',campareLeft+"px");
                                 }else{

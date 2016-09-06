@@ -3,6 +3,7 @@ body{background: #f8f8f9;color: #333;position: relative;}
 .main{width: 90%;margin:0 auto;}
 .main:after{clear: both;height: 0;display: block;visibility: hidden;content:"0";}
 .nav:after{clear: both;height: 0;display: block;visibility: hidden;content:"0";}
+.default-content:after{clear: both;height: 0;display: block;visibility: hidden;content:"0";}
 .nav{padding:10px 0 10px 0;}
 .nav-item{float: left; border: 1px solid #d7d7d7; padding: 2px 5px;margin-right: 10px;cursor: pointer;}
 .nav-item.e{background:#31C27C; color: #fff;}
@@ -23,7 +24,7 @@ body{background: #f8f8f9;color: #333;position: relative;}
 .child-drag.barcode .code-num{height: 14px;width: 80px;border: 0 none;clear: both;}
 .mutipleline>div{border-bottom: 1px solid #d7d7d7;height:30px;line-height: 30px;}
 .mutipleline>div:nth-last-child(1){border:0 none;}
-.canvas{border:1px solid #d7d7d7; background: #fff;height:680px;width: 75%;position: relative;z-index: -1}
+.canvas{border:1px solid #d7d7d7; background: #fff;height:680px;width: 75%;position: relative;z-index:0}
 .tips-line-x{width: 0;position: absolute;border-left: 1px dashed #7C7C7C; }
 .tips-line-y{height: 0;position: absolute;left: 0;border-bottom: 1px dashed #7C7C7C;}
 .category-name{line-height: 18px;border-bottom: 1px solid #d7d7d7; margin:0 10px 10px 0;padding-bottom: 4px;clear: both;}

@@ -1,4 +1,7 @@
         var Report={"IsCopyReportResult":false,"ReportRPatient":{"Id":62694,"PatientTypeCode":"0","PatientTypeName":null,"PatientCode":"534255","PatientName":"陆林涛","PatientSex":"1","PatientAge":"69","DoctorCode":"陈光建","DoctorName":null,"ReporterAccount":null,"CollectAccount":"","Diagnosis":"脑出血","BedNo":"8","DepartmentCode":"010208","DepartmentName":"SICU","InpatientAreaCode":"09102","InpatientAreaName":"同康二病区","ApplyDate":"2016-04-11 16:31:29","CollectDate":"2016-04-11 16:31:29","ReportDate":"2016-04-15 00:00:00","Remark":"深静脉尖端","SpecimenTypeCode":"24","SpecimenTypeName":"导管","ChargeTypeCode":"新医保","ChargeTypeName":"新医保","AgeUnit":"","SampleNoPrefix":"WX","Barcode":"1200308311","InspectItem":"250501009B,","InspectItemName":"一般细菌培养及鉴定(仪器法),"},"ReportRIdentifyResult":[{"Id":112136,"BacteriaCode":"XJ2113","BacteriaName":"肺炎克雷伯菌(泛耐药)","TestValue":"检出","TestValueDescription":null,"BacteriaSerial":1}],"ReportRAntibioticResult":[{"Id":69267,"AntibioticCode":"AM-V32","AntibioticName":"氨苄西林","TestValue":"耐药(R)","MIC":">=32","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69268,"AntibioticCode":"AMS-V32","AntibioticName":"氨苄西林舒巴坦","TestValue":"耐药(R)","MIC":">=32","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69269,"AntibioticCode":"TZP-V32","AntibioticName":"哌拉西林他唑巴坦","TestValue":"耐药(R)","MIC":">=128","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69270,"AntibioticCode":"CZ-V32","AntibioticName":"头孢唑啉","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69271,"AntibioticCode":"CTE-V32","AntibioticName":"头孢替坦","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69272,"AntibioticCode":"TAZ-V32","AntibioticName":"头孢他啶","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69273,"AntibioticCode":"CTR-V32","AntibioticName":"头孢曲松","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69274,"AntibioticCode":"FEP-V32","AntibioticName":"头孢吡肟","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69275,"AntibioticCode":"AZM-V32","AntibioticName":"氨曲南","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69276,"AntibioticCode":"IMI-V32","AntibioticName":"亚胺培南","TestValue":"耐药(R)","MIC":">=16","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69277,"AntibioticCode":"AN-V32","AntibioticName":"丁胺卡那霉素","TestValue":"耐药(R)","MIC":">=64","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69278,"AntibioticCode":"GM-V32","AntibioticName":"庆大霉素","TestValue":"耐药(R)","MIC":">=16","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69279,"AntibioticCode":"TOB-V32","AntibioticName":"妥布霉素","TestValue":"耐药(R)","MIC":">=16","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69280,"AntibioticCode":"CIP-V32","AntibioticName":"环丙沙星","TestValue":"耐药(R)","MIC":">=4","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69281,"AntibioticCode":"LEV-V32","AntibioticName":"左旋氧氟沙星","TestValue":"耐药(R)","MIC":">=8","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69282,"AntibioticCode":"SXT-V32","AntibioticName":"复方新诺明","TestValue":"耐药(R)","MIC":">=16","MID":null,"BacteriaSerial":1,"AntibioticType":1,"BreakPointRange":null},{"Id":69283,"AntibioticCode":"SCF","AntibioticName":"头孢哌酮/舒巴坦","TestValue":"耐药(R)","MIC":null,"MID":"6","BacteriaSerial":1,"AntibioticType":2,"BreakPointRange":"16-20"},{"Id":69284,"AntibioticCode":"MEM","AntibioticName":"美罗培南","TestValue":"耐药(R)","MIC":null,"MID":"6","BacteriaSerial":1,"AntibioticType":2,"BreakPointRange":"20-22"},{"Id":69285,"AntibioticCode":"TGC","AntibioticName":"替吉环素","TestValue":"敏感(S)","MIC":null,"MID":"17","BacteriaSerial":1,"AntibioticType":2,"BreakPointRange":"13-15"},{"Id":69286,"AntibioticCode":"CXM1","AntibioticName":"头孢呋辛口服","TestValue":"耐药(R)","MIC":null,"MID":"6","BacteriaSerial":1,"AntibioticType":2,"BreakPointRange":"15-22"},{"Id":69287,"AntibioticCode":"CXM2","AntibioticName":"头孢呋辛注射","TestValue":"耐药(R)","MIC":null,"MID":"6","BacteriaSerial":1,"AntibioticType":2,"BreakPointRange":"15-17"}],"Id":62852,"RecordId":69703,"SampleNo":"WX8000","ReportDate":"2016-04-15 00:00:00","ReportType":0}
+        var PRINTMODEL=[{"type":"Hospital","top":"6mm","left":"81mm","topNum":6,"leftNum":81,"width":40,"height":5,"text":"医院名称","example":"上海同济医院微生物报告","modelType":"title"},{"type":"Hospital","top":"18mm","left":"10mm","topNum":18,"leftNum":10,"width":40,"height":5,"text":"医院名称","example":"上海同济医院微生物报告","modelType":"title"},{"type":"RecordId","top":"18mm","left":"64mm","topNum":18,"leftNum":64,"width":29,"height":5,"text":"记录单号","example":"记录单号：56959","modelType":"default"},{"type":"ReportDate","top":"18mm","left":"124mm","topNum":18,"leftNum":124,"width":49,"height":5,"text":"报告时间","example":"报告时间：2016-03-02 00:00:00","modelType":"default"},{"type":"AntibioticResult","top":"30mm","left":"10mm","topNum":30,"leftNum":10,"width":190,"height":33,"text":"细菌药敏结果","example":"细菌药敏结果","modelType":"mutipleline"}];
+
+        //以上为样例数据
 
         var PaperType={
             A3:{width:297,height:420,isDefault:false},
@@ -131,6 +134,12 @@
             isIE: document.all ? true : false,
         }
         var DPIX,DPIY;
+        var Class = {
+            create: function() {
+                return function() { this.init.apply(this, arguments); }
+            }
+        }
+        var Drag = Class.create();
 
         var Canvas={
             changePaper:function(key){
@@ -149,12 +158,46 @@
                 }
             }
         }
-        var Class = {
-            create: function() {
-                return function() { this.init.apply(this, arguments); }
+        var PrintModelGenerator={
+            generateModel:function(printModel,canvasId,controlList){
+                if (printModel.length>0) {
+                    var canvasArea=Canvas.area.call(Common.getItself(canvasId));
+                    $.each(printModel,function(index, el) {
+                        var divDrag=this.generateDragDom(el.type,canvasArea,controlList);
+                        var newId = (new Date()).getTime() + parseInt(Math.random() * 100000);
+                        newId=el.type+'-'+newId;
+                        divDrag.attr({id:newId,control:el.type})
+                                             .css({position:'absolute','z-index':index+1,top:el.top,left:el.left})
+                                             .appendTo("#"+canvasId)
+                        new Drag(newId,canvasId,{keepOrigin: false});
+                    }.bind(this));
+                }
+            },
+            generateDragDom:function(type,canvasArea,controlList){
+              var control=Common.getDataItem(type,'code',controlList);
+                switch(control.type)
+                {
+                    case 'default':
+                    return $("<div>").attr({class:'child-drag'}).html(control.example);
+                    case 'title':
+                    return $("<div>").attr({class:'child-drag title'}).html(control.example);
+                    case 'normal':
+                    return $("<div>").attr({class:'child-drag normal'}).html(control.example);
+                    case 'line':
+                    return $("<div>").attr({class:'child-drag line'}).width(canvasArea.width-100).height(3).html(control.example);
+                    case 'mutipleline':
+                    return $("<div>").attr({class:'child-drag mutipleline'}).width(canvasArea.width-100).html('<div>'+control.example+'</div><div>'+control.example+'</div><div>'+control.example+'</div><div>'+control.example+'</div>');
+                    case 'comment':
+                    return $("<div>").attr({class:'child-drag mutipleline'}).width(canvasArea.width-100).html('<div>'+control.example+'</div>');
+                    case 'barcode':
+                    return $("<div>").attr({class:'child-drag barcode'}).html('<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div Class="code-num">'+control.example+'</div>');
+                    default:
+                    return $("<div>").attr({class:'child-drag'}).html(control.example);
+                }
             }
         }
-        var Drag = Class.create();
+
+
         Drag.prototype = {
             init: function(id,canvasId,controlList,options) {
                 var $dragDiv=Common.getItself(id);
@@ -192,7 +235,7 @@
                     if (dragObj.keepOrigin) {
                         var newId = (new Date()).getTime() + parseInt(Math.random() * 100000);
                         newId=id+'-'+newId;
-                        dragObj.currentDrag = dragObj.getControlDom(id,canvasArea,controlList);
+                        dragObj.currentDrag = PrintModelGenerator.generateDragDom(id,canvasArea,controlList);
                         dragObj.currentDrag.attr({id:newId,control:id})
                                              .css({position:'absolute','z-index':(dragObj.getZindex()+1),top:dragDivArea.top-canvasArea.top,left:dragDivArea.left-canvasArea.left})
                                              .appendTo("#"+canvasId)
@@ -224,7 +267,6 @@
                             }
                             var currentX=0,currentY=0,movePos,campareDragTops=[],campareDragLefts=[];
                             movePos = Common.getMousePos(ev);
-                            console.log(dragObj.dragArea)
                             currentX=Math.max(Math.min(movePos.x - dragObj.tmpX-canvasArea.left, dragObj.dragArea.maxRight), dragObj.dragArea.maxLeft);
                             currentY=Math.max(movePos.y - dragObj.tmpY-canvasArea.top, dragObj.dragArea.maxTop);
                             $(".child-drag").not(dragObj.currentDrag).each(function(index,item){
@@ -289,29 +331,8 @@
                     maxZindex = Math.max(maxZindex, divs[z].style.zIndex);
                 }
                 return maxZindex;
-            },
-            getControlDom:function(type,canvasArea,controlList){
-              var control=Common.getDataItem(type,'code',controlList);
-                switch(control.type)
-                {
-                    case 'default':
-                    return $("<div>").attr({class:'child-drag'}).html(control.example);
-                    case 'title':
-                    return $("<div>").attr({class:'child-drag title'}).html(control.example);
-                    case 'normal':
-                    return $("<div>").attr({class:'child-drag normal'}).html(control.example);
-                    case 'line':
-                    return $("<div>").attr({class:'child-drag line'}).width(canvasArea.width-100).height(3).html(control.example);
-                    case 'mutipleline':
-                    return $("<div>").attr({class:'child-drag mutipleline'}).width(canvasArea.width-100).html('<div>'+control.example+'</div><div>'+control.example+'</div><div>'+control.example+'</div><div>'+control.example+'</div>');
-                    case 'comment':
-                    return $("<div>").attr({class:'child-drag mutipleline'}).width(canvasArea.width-100).html('<div>'+control.example+'</div>');
-                    case 'barcode':
-                    return $("<div>").attr({class:'child-drag barcode'}).html('<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div Class="code-num">'+control.example+'</div>');
-                    default:
-                    return $("<div>").attr({class:'child-drag'}).html(control.example);
-                }
             }
+
 
         }
 
@@ -324,18 +345,20 @@
                     this.Title=opts.Title?opts.Title:'微生物报告打印';
                     this.FontSize=isNaN(opts.FontSize)?11:opts.FontSize;
                     this.CodeType=opts.CodeType?opts.CodeType:'128B';
+                    this.Unit=opts.Unit?opts.Unit:'mm';
                 }else{
                     this.LineHeight=5;
                     this.ScareTimes=1.5;
                     this.Title='微生物报告打印';
                     this.FontSize=11;
                     this.CodeType='128B';
+                    this.Unit='mm';
                 }
                 this.PaperWidth=printModel.PaperInfo.size.width==null||undefined?210:printModel.PaperInfo.size.width;
                 this.PaperHeight=printModel.PaperInfo.size.height==null||undefined?210:printModel.PaperInfo.size.height;
                 this.PaperType=printModel.PaperInfo.type==null||undefined?'A4':printModel.PaperInfo.type;
                 LODOP.PRINT_INIT(this.Title);
-                LODOP.SET_PRINT_PAGESIZE(0, this.PaperWidth+'mm', this.PaperHeight+'mm',this.PaperType);
+                LODOP.SET_PRINT_PAGESIZE(0, this.addUnit(this.PaperWidth),this.addUnit(this.PaperHeight),this.PaperType);
                 LODOP.SET_PRINT_STYLE("FontSize",this.FontSize);
                 var antibioticModel=Common.getDataItem('AntibioticResult','type',printModel.ControlList);
                 if (antibioticModel) {
@@ -361,16 +384,16 @@
                 $.each(printModel.ControlList,function(index, el) {
                     switch(el.type){
                         case 'BacteriaBarcode':
-                        LODOP.ADD_PRINT_BARCODE(el.top,el.left,el.width+'mm',el.height+'mm',this.CodeType,el.example);break;
-                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width+'mm',el.height+'mm',el.example);break;
+                        LODOP.ADD_PRINT_BARCODE(el.top,el.left,this.addUnit(el.width),this.addUnit(el.height),this.CodeType,el.example);break;
+                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,this.addUnit(el.width),this.addUnit(el.height),el.example);break;
                     }
                 }.bind(this));
             },
             preBarcodePrint:function(printModel){
                 $.each(printModel.ControlList,function(index, el) {
                     switch(el.type){
-                        case 'PresetBarcode':LODOP.ADD_PRINT_BARCODE(el.top,el.left,el.width+'mm',el.height+'mm',this.CodeType,el.example);break;
-                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width+'mm',el.height+'mm',el.example);break;
+                        case 'PresetBarcode':LODOP.ADD_PRINT_BARCODE(el.top,el.left,this.addUnit(el.width),this.addUnit(el.height),this.CodeType,el.example);break;
+                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,this.addUnit(el.width),this.addUnit(el.height),el.example);break;
                     }
                 }.bind(this));
             },
@@ -378,39 +401,39 @@
                 var printObj=this;
                 $.each(printModel.ControlList,function(index, el) {
                     switch(el.type){
-                        case 'SampleNo':LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,el.text+":"+Report[el.type]);break;
-                        case 'Line':LODOP.ADD_PRINT_LINE(el.top,'10mm',el.top,(printObj.PaperWidth-20)+'mm',0,1);break;
-                        case 'Hospital':LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,el.example);break;
-                        case 'ReportDeclaration':LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,el.example);break;
+                        case 'SampleNo':LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,el.text+":"+Report[el.type]);break;
+                        case 'Line':LODOP.ADD_PRINT_LINE(el.top,printObj.addUnit(10),el.top,printObj.addUnit(printObj.PaperWidth-20),0,1);break;
+                        case 'Hospital':LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,el.example);break;
+                        case 'ReportDeclaration':LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,el.example);break;
                         case 'IdentifyResult':
                            var len=Report.ReportRIdentifyResult.length;
                            var titleTop=el.topNum+printObj.LineHeight;
                            if (len==0) {
                                     return;
                             }else if(len==1){
-                                LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,'鉴定结果：');
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",(printObj.PaperWidth)/8+"mm",el.width+'mm',el.height,'鉴定结果/细菌描述');
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",printObj.PaperWidth/2+'mm',el.width+'mm',el.height,'细菌描述');
-                                LODOP.ADD_PRINT_TEXT((el.topNum+printObj.LineHeight*2)+"mm",printObj.PaperWidth/8+'mm',el.width+'mm',el.height,Report.ReportRIdentifyResult[0].BacteriaName);
-                                LODOP.ADD_PRINT_TEXT((el.topNum+printObj.LineHeight*2)+"mm",printObj.PaperWidth/2+'mm',el.width+'mm',el.height,Report.ReportRIdentifyResult[0].TestValue);
+                                LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,'鉴定结果：');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit((printObj.PaperWidth)/8),printObj.addUnit(el.width),el.height,'鉴定结果/细菌描述');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(printObj.PaperWidth/2),printObj.addUnit(el.width),el.height,'细菌描述');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit((el.topNum+printObj.LineHeight*2)),printObj.addUnit(printObj.PaperWidth/8),printObj.addUnit(el.width),el.height,Report.ReportRIdentifyResult[0].BacteriaName);
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit((el.topNum+printObj.LineHeight*2)),printObj.addUnit(printObj.PaperWidth/2),printObj.addUnit(el.width),el.height,Report.ReportRIdentifyResult[0].TestValue);
                             }else{
                                 var left1,left2,titleTop;
                                 left1=el.leftNum+12;left2=printObj.PaperWidth*5/16;
-                                LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,'鉴定结果：');
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",left1+"mm",el.width+'mm',el.height,'鉴定结果/细菌描述');
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",left2+'mm',el.width+'mm',el.height,'细菌描述');
-                                LODOP.ADD_PRINT_LINE(titleTop+"mm",(printObj.PaperWidth/2-1)+"mm",el.topNum+(Math.ceil(Report.ReportRIdentifyResult.length/2)+1)*printObj.LineHeight+'mm',(printObj.PaperWidth/2-1)+"mm",0,1);
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",left1+(printObj.PaperWidth)/2+"mm",el.width+'mm',el.height,'鉴定结果/细菌描述');
-                                LODOP.ADD_PRINT_TEXT(titleTop+"mm",left2+printObj.PaperWidth/2+'mm',el.width+'mm',el.height,'细菌描述');
+                                LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,'鉴定结果：');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left1),printObj.addUnit(el.width),el.height,'鉴定结果/细菌描述');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left2),printObj.addUnit(el.width),el.height,'细菌描述');
+                                LODOP.ADD_PRINT_LINE(printObj.addUnit(titleTop),printObj.addUnit(printObj.PaperWidth/2-1),el.topNum+(Math.ceil(Report.ReportRIdentifyResult.length/2)+1)*printObj.LineHeight+'mm',printObj.addUnit(printObj.PaperWidth/2-1),0,1);
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left1+(printObj.PaperWidth)/2),printObj.addUnit(el.width),el.height,'鉴定结果/细菌描述');
+                                LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),left2+printObj.addUnit(printObj.PaperWidth/2),printObj.addUnit(el.width),el.height,'细菌描述');
                                 $.each(Report.ReportRIdentifyResult,function(i, idtfyResult) {
                                     if (i%2==0) {
                                         left1=el.leftNum+12;left2=printObj.PaperWidth*5/16;
                                     }else{
                                         left1=el.leftNum+12+printObj.PaperWidth/2;left2=printObj.PaperWidth*13/16;
                                     }
-                                    var currentH=(el.topNum+printObj.LineHeight*(Math.floor(i/2)+2))+"mm";
-                                    LODOP.ADD_PRINT_TEXT(currentH+"mm",left1+"mm",el.width+'mm',el.height,idtfyResult.BacteriaName);
-                                    LODOP.ADD_PRINT_TEXT(currentH+"mm",left2+'mm',el.width+'mm',el.height,idtfyResult.TestValue);
+                                    var currentH=printObj.addUnit(el.topNum+printObj.LineHeight*(Math.floor(i/2)+2));
+                                    LODOP.ADD_PRINT_TEXT(printObj.addUnit(currentH),printObj.addUnit(left1),printObj.addUnit(el.width),el.height,idtfyResult.BacteriaName);
+                                    LODOP.ADD_PRINT_TEXT(printObj.addUnit(currentH),printObj.addUnit(left2),printObj.addUnit(el.width),el.height,idtfyResult.TestValue);
                                 });
                             }
                             break;
@@ -419,22 +442,22 @@
                             $.each(Report.ReportRIdentifyResult,function(i, bctr) {
                                 var antibiotics= Common.getDataList(bctr.BacteriaSerial,'BacteriaSerial',Report.ReportRAntibioticResult);
                                 if (antibiotics.length>0) {
-                                    LODOP.ADD_PRINT_TEXT(el.top,el.left,(el.width*printObj.ScareTimes)+'mm',el.height,bctr.BacteriaName);
+                                    LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,bctr.BacteriaName);
                                         var left1,left2,left3,titleTop;
                                         left1=el.leftNum;
                                         left2=el.leftNum+printObj.PaperWidth/4;
                                         left3=el.leftNum+printObj.PaperWidth/8*3-7;
                                         titleTop=el.topNum+printObj.LineHeight+mutipelHeight;
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left1+'mm',el.width+'mm',el.height,'药敏');
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left2+'mm',el.width+'mm',el.height,'抑菌浓度');
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left3+'mm',el.width+'mm',el.height,'结果');
-                                        LODOP.ADD_PRINT_LINE(titleTop+"mm",(printObj.PaperWidth/2-5)+"mm",titleTop+(Math.ceil(antibiotics.length/2)+1)*printObj.LineHeight+'mm',(printObj.PaperWidth/2-5)+"mm",0,1);
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left1),printObj.addUnit(el.width),el.height,'药敏');
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left2),printObj.addUnit(el.width),el.height,'抑菌浓度');
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left3),printObj.addUnit(el.width),el.height,'结果');
+                                        LODOP.ADD_PRINT_LINE(printObj.addUnit(titleTop),printObj.addUnit(printObj.PaperWidth/2-5),titleTop+(Math.ceil(antibiotics.length/2)+1)*printObj.LineHeight+'mm',printObj.addUnit(printObj.PaperWidth/2-5),0,1);
 
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left1+printObj.PaperWidth/2-4+'mm',el.width+'mm',el.height,'药敏');
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left2+printObj.PaperWidth/2-el.leftNum+'mm',el.width+'mm',el.height,'抑菌浓度');
-                                        LODOP.ADD_PRINT_TEXT(titleTop+"mm",left3+printObj.PaperWidth/2-el.leftNum+'mm',el.width+'mm',el.height,'结果');
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left1+printObj.PaperWidth/2-4),printObj.addUnit(el.width),el.height,'药敏');
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left2+printObj.PaperWidth/2-el.leftNum),printObj.addUnit(el.width),el.height,'抑菌浓度');
+                                        LODOP.ADD_PRINT_TEXT(printObj.addUnit(titleTop),printObj.addUnit(left3+printObj.PaperWidth/2-el.leftNum),printObj.addUnit(el.width),el.height,'结果');
                                         $.each(antibiotics,function(j, antbotc) {
-                                        var currentH=(el.topNum+printObj.LineHeight*(Math.floor(j/2)+2)+mutipelHeight)+"mm";
+                                        var currentH=printObj.addUnit(el.topNum+printObj.LineHeight*(Math.floor(j/2)+2)+mutipelHeight);
                                         if (j%2==0) {
                                             left1=el.leftNum;left2=el.leftNum+printObj.PaperWidth/4;left3=el.leftNum+printObj.PaperWidth/8*3-7;
                                             }else{
@@ -442,25 +465,26 @@
                                             left2=el.leftNum+printObj.PaperWidth/4*3-el.leftNum;
                                             left3=el.leftNum+printObj.PaperWidth/8*7-7-el.leftNum;
                                             }
-                                        LODOP.ADD_PRINT_TEXT(currentH,left1+"mm",el.width+'mm',el.height,antbotc.AntibioticName+"("+antbotc.AntibioticCode+")");
+                                        LODOP.ADD_PRINT_TEXT(currentH,printObj.addUnit(left1),printObj.addUnit(el.width),el.height,antbotc.AntibioticName+"("+antbotc.AntibioticCode+")");
                                         var micOrMid=antbotc.MIC==null||""?antbotc.MID:antbotc.MIC;
-                                        LODOP.ADD_PRINT_TEXT(currentH,left2+'mm',el.width+'mm',el.height,micOrMid);
-                                        LODOP.ADD_PRINT_TEXT(currentH,left3+'mm',el.width+'mm',el.height,antbotc.TestValue);
+                                        LODOP.ADD_PRINT_TEXT(currentH,printObj.addUnit(left2),printObj.addUnit(el.width),el.height,micOrMid);
+                                        LODOP.ADD_PRINT_TEXT(currentH,printObj.addUnit(left3),printObj.addUnit(el.width),el.height,antbotc.TestValue);
                                         });
                                     mutipelHeight+=(Math.ceil(antibiotics.length/2)+2)*printObj.LineHeight;
                                 }
                             });
                             break;
-                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,el.width*printObj.ScareTimes+'mm',el.height,el.text+":"+Report.ReportRPatient[el.type]);break;
+                        default:LODOP.ADD_PRINT_TEXT(el.top,el.left,printObj.addUnit(el.width*printObj.ScareTimes),el.height,el.text+":"+Report.ReportRPatient[el.type]);break;
                     }
                 });
             },
             partData:function(value,valueFeild,data,increase){
-                var result=[];
+                var result = [];
+                var _this = this;
                 $.each(data,function(index, el) {
                     if(el[valueFeild]>value){
                         el.topNum=el.topNum+increase;
-                        el.top=el.topNum+'mm';
+                        el.top = _this.addUnit(el.topNum);
                         result.push(el);
                     }else{
                         result.push(el);
@@ -468,6 +492,9 @@
                 });
                 return result;
             },
+            addUnit:function(num){
+                return num+this.Unit;
+            }
         }
         var ControlGenerate={
             generate:function(data,containerId,canvasId) {
@@ -510,36 +537,36 @@
                     $(".paper-container").hide();
                 }
                 Canvas.changePaper.call($("#Canvas"),_this.attr('id'));
-                ControlGenerate.generate(ControlLibrary[$("#ModelType").val()],'ControlContainer','Canvas');
+                ControlGenerate.generate(ControlLibrary[$("#PrintType").val()],'ControlContainer','Canvas');
             });
             //自定义纸张大小
             $("#Confirm").live('click', function(event) {
                 PaperType.Other.width=$("#PaperWidth").val();
                 PaperType.Other.height=$("#PaperHeight").val();
                 Canvas.changePaper.call($("#Canvas"),'Other');
-                ControlGenerate.generate(ControlLibrary[$("#ModelType").val()],'ControlContainer','Canvas');
+                ControlGenerate.generate(ControlLibrary[$("#PrintType").val()],'ControlContainer','Canvas');
             });
             //初始化画布
             Canvas.changePaper.call($("#Canvas"),$(".nav-item.e").attr('id'));
             //初始化拖拽控件
-            ControlGenerate.generate(ControlLibrary[$("#ModelType").val()],'ControlContainer','Canvas');
+            ControlGenerate.generate(ControlLibrary[$("#PrintType").val()],'ControlContainer','Canvas');
 
-            $("#ModelType").change(function(event) {
+            $("#PrintType").change(function(event) {
                 ControlGenerate.generate(ControlLibrary[$(this).val()],'ControlContainer','Canvas');
             });
             //生成模板
             $("#Print").live('click', function() {
-                var Result={PaperInfo:{},ControlList:[]},canvasArea={},_papertype,_modelType;
+                var Result={PaperInfo:{},ControlList:[]},canvasArea={},_papertype,_printType;
                 _papertype=$(".nav-item.e").attr('id');
-                _modelType=$("#ModelType").val();
+                _printType=$("#PrintType").val();
                 Result.PaperInfo={type:_papertype,size:PaperType[_papertype]};
-                Result.PrintType=_modelType;
+                Result.PrintType=_printType;
                 canvasArea=Canvas.area.call($("#Canvas"));
                 $(".child-drag").each(function(index, el) {
                     var _this,type,area,item,_top,_left;
                     _this=$(this);
                     type=_this.attr('control');
-                    item=Common.getDataItem(type,'code',ControlLibrary[_modelType]);
+                    item=Common.getDataItem(type,'code',ControlLibrary[_printType]);
                     area=Canvas.area.call(_this);
                     _top=Math.round((area.top-canvasArea.top)/DPIY);
                     _left=Math.round((area.left-canvasArea.left)/DPIX);
@@ -552,12 +579,18 @@
                         width:Math.round(area.width/DPIX),
                         height:Math.round(area.height/DPIY),
                         text:item.text,
-                        example:item.example
+                        example:item.example,
+                        modelType:item.type
+
                     });
                 });
-                console.log(Result.ControlList);
+                console.log(JSON.stringify(Result.ControlList));
 
                 //获取模板打印
                 PaperPrint.prieview(Result,{LineHeight:5,FontSize:11});
+            });
+            //编辑模板
+            $("#Edit").live('click', function(event) {
+                PrintModelGenerator.generateModel(PRINTMODEL,'Canvas',ControlLibrary[$("#PrintType").val()])
             });
         });

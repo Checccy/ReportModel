@@ -580,8 +580,6 @@
                         height:Math.round(area.height/DPIY),
                         text:item.text,
                         example:item.example,
-                        modelType:item.type
-
                     });
                 });
                 console.log(JSON.stringify(Result.ControlList));
